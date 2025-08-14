@@ -1,0 +1,49 @@
+# ======================
+# Core ignores
+# ======================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ======================
+# Kaggle-specific
+# ======================
+# Ignore everything in working directory outputs
+/kaggle/working/*
+
+# Keep notebooks
+!*.ipynb
+
+# Keep input data copied into repo
+!/input_data/**
+
+# ======================
+# Data / Models
+# ======================
+# Ignore large binary files
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.pkl
+*.index
+
+# Ignore compressed archives
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.out
+
