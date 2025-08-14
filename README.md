@@ -9,25 +9,15 @@ It not only retrieves law-related content but also provides location-based resou
 
 <h2>✨ Key Features (What Makes It Unique)</h2>
 <ol>
-  <li>
-    <b>Legal Knowledge Retrieval (RAG)</b>: Retrieve any information about the Indian law system using a RAG pipeline (SentenceTransformer embeddings + FAISS search + reranking).
-    <div align="center">
-      <img src="<img width="1231" height="397" alt="Screenshot 2025-08-14 220806" src="https://github.com/user-attachments/assets/25f3031c-93d2-4dca-880e-70a4be46daf0" />
-" alt="RAG Retrieval Example" width="600">
-    </div>
-  </li>
-  <li>
-    <b>Location Awareness</b>: Get nearby firms, lawyers, and judicial landmarks based on your city or location.
-    <div align="center">
-      <img src="images/location_example.png" alt="Location Awareness Example" width="600">
-    </div>
-  </li>
-  <li>
-    <b>Real Lawyer Insights</b>: Access actual Indian lawyer advice and related experiences matched to your question context.
-    <div align="center">
-      <img src="images/lawyer_advice.png" alt="Lawyer Advice Example" width="600">
-    </div>
-  </li>
+  <li><b>Legal Knowledge Retrieval (RAG)</b>: Retrieve any information about the Indian law system using a RAG pipeline (SentenceTransformer embeddings + FAISS search + reranking).</li>
+  <img width="1231" height="397" alt="Screenshot 2025-08-14 220806" src="https://github.com/user-attachments/assets/19add1c2-9463-4ed1-8f09-556fdb5805bc" />
+
+  <li><b>Location Awareness</b>: Get nearby firms, lawyers, and judicial landmarks based on your city or location.</li>
+  <img width="915" height="299" alt="Screenshot 2025-08-14 220840" src="https://github.com/user-attachments/assets/9047fb88-d1fd-4724-ac91-f9054d82611f" />
+
+  <li><b>Real Lawyer Insights</b>: Access actual Indian lawyer advice and related experiences matched to your question context.</li>
+  <img width="1395" height="779" alt="Screenshot 2025-08-14 220930" src="https://github.com/user-attachments/assets/6122ce62-eb81-43a2-9762-3e290a51ceae" />
+
 </ol>
 
 <hr>
