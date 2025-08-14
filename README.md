@@ -24,12 +24,37 @@ It not only retrieves law-related content but also provides location-based resou
 
 <h2>📦 Project Layout</h2>
 <pre>
-LegalChatBot.ipynb      # Main development notebook
-input_data/             # Small configs/sample data
-data/                   # Raw sources (JSON/CSV/PDF) - large files excluded
-faiss_index/            # Saved FAISS indexes
-models/                 # Saved/finetuned models (do not commit large weights)
+LegalChatBot.ipynb          # Main development notebook
+
+# Summarization & Models
+bart_summarizer/            # Summarization checkpoints
+checkpoints/                # Training checkpoints
+fine-tuned-inlegalbert/     # Fine-tuned INLegalBERT model
+legal_model/                # Trained legal model
+qa_model/                   # Question-answer model
+
+# Input Datasets
+crpc-india/                 # CRPC QA dataset
+final-database/             # Final law database JSON
+indian-law/                 # Indian legal PDFs (Constitution, IPC, Acts, etc.)
+legal-advice/               # Lawyer Q&A data
+
+# Processed Data & Indexes
+full_texts.json             # Raw full-text data
+final_summarized_data.json  # Summarized dataset
+summarized_legal_data.json  # Alternate summarized data
+processed_lawyer_data.json  # Processed lawyer advice
+
+legal_chunks.npy            # Pre-chunked text for embeddings
+legal_embeddings.npy        # Embedding vectors
+legal_faiss.index           # FAISS index for retrieval
+final_faiss_fulltext.index  # Alternate full-text FAISS index
+question_embeddings.pt      # Embeddings of user/legal questions
+
+# Misc
+state.db                    # Local database state
 </pre>
+
 
 <hr>
 
