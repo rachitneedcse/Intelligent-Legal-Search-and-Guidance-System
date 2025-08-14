@@ -117,7 +117,4 @@ Always consult a <b>qualified legal professional</b> for any real-world legal ma
 <p>Pull requests and issues welcome.<br>
 Do not upload large datasets or models; link them instead.</p>
 
-<hr>
 
-<h2>📜 License</h2>
-<p>Add a <code>LICENSE</code> file (e.g., MIT).</p>
