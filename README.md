@@ -9,9 +9,25 @@ It not only retrieves law-related content but also provides location-based resou
 
 <h2>✨ Key Features (What Makes It Unique)</h2>
 <ol>
-  <li><b>Legal Knowledge Retrieval (RAG)</b>: Retrieve any information about the Indian law system using a RAG pipeline (SentenceTransformer embeddings + FAISS search + reranking).</li>
-  <li><b>Location Awareness</b>: Get nearby firms, lawyers, and judicial landmarks based on your city or location.</li>
-  <li><b>Real Lawyer Insights</b>: Access actual Indian lawyer advice and related experiences matched to your question context.</li>
+  <li>
+    <b>Legal Knowledge Retrieval (RAG)</b>: Retrieve any information about the Indian law system using a RAG pipeline (SentenceTransformer embeddings + FAISS search + reranking).
+    <div align="center">
+      <img src="<img width="1231" height="397" alt="Screenshot 2025-08-14 220806" src="https://github.com/user-attachments/assets/25f3031c-93d2-4dca-880e-70a4be46daf0" />
+" alt="RAG Retrieval Example" width="600">
+    </div>
+  </li>
+  <li>
+    <b>Location Awareness</b>: Get nearby firms, lawyers, and judicial landmarks based on your city or location.
+    <div align="center">
+      <img src="images/location_example.png" alt="Location Awareness Example" width="600">
+    </div>
+  </li>
+  <li>
+    <b>Real Lawyer Insights</b>: Access actual Indian lawyer advice and related experiences matched to your question context.
+    <div align="center">
+      <img src="images/lawyer_advice.png" alt="Lawyer Advice Example" width="600">
+    </div>
+  </li>
 </ol>
 
 <hr>
