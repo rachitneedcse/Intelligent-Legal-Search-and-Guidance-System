@@ -94,48 +94,11 @@ $env:TOGETHER_API_KEY="YOUR_KEY"
   <li>Open and run <code>LegalChatBot.ipynb</code></li>
 </ol>
 
-<pre>
-query = "What is the process to file a cybercrime complaint in Delhi?"
 
-# Steps:
-# 1) Embed query
-# 2) Search FAISS
-# 3) Rerank
-# 4) Summarize (optional)
-# 5) Generate final answer via Together API
-</pre>
 
-<hr>
 
-<h2>🧠 How It Works</h2>
-<ol>
-  <li><b>Load Data</b>: JSON/CSV/PDF sources of Indian laws and legal Q&A</li>
-  <li><b>Embed</b>: Encode chunks with SentenceTransformer (e.g., INLegalBERT-based)</li>
-  <li><b>Index</b>: Store embeddings in FAISS for fast retrieval</li>
-  <li><b>Retrieve</b>: Find top-k most relevant sections for a user’s question</li>
-  <li><b>Rerank</b>: Use CrossEncoder to boost precision</li>
-  <li><b>Summarize</b>: Use BART-large for long passages (optional)</li>
-  <li><b>Generate</b>: Final answer crafted using Together API, enriched with lawyer advice & location context</li>
-</ol>
 
-<hr>
 
-<h2>📁 Example Datasets</h2>
-<pre>
-/kaggle/input/crpc-india/crpc_qa.json
-/kaggle/input/final-database/legal_database.json
-/kaggle/input/indian-law/COI.pdf
-/kaggle/input/legal-advice/answers_data.json
-</pre>
-
-<hr>
-
-<h2>🔒 Security & Safety</h2>
-<ul>
-  <li>Never commit API keys (use <code>.env</code> or environment variables)</li>
-  <li>Responses are <b>informational only</b></li>
-  <li>Validate sources and add citations wherever possible</li>
-</ul>
 
 <hr>
 
