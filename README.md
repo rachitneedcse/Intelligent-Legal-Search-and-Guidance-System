@@ -2,7 +2,6 @@
 <p>
 A Retrieval-Augmented Generation (RAG) based chatbot designed for the Indian legal system.<br>
 It not only retrieves law-related content but also provides location-based resources and lawyer advice.<br>
-⚠️ This tool provides <b>legal information, not legal advice</b>.
 </p>
 
 <hr>
@@ -140,12 +139,14 @@ query = "What is the process to file a cybercrime complaint in Delhi?"
 
 <hr>
 
-<h2>🧭 Limitations</h2>
-<ul>
-  <li>May miss latest amendments or case law without refreshed data</li>
-  <li>Location services depend on accurate city-level input</li>
-  <li>Lawyer advice is summarized and not a substitute for professional consultation</li>
-</ul>
+
+<h2>⚠️ Disclaimer</h2>
+<p>
+This project is built <b>for research and educational purposes only</b>.  
+It is <b>not a substitute for professional legal advice</b>.  
+While the system retrieves laws, documents, and lawyer experiences, its responses may be incomplete, outdated, or inaccurate.  
+Always consult a <b>qualified legal professional</b> for any real-world legal matters.  
+</p>
 
 <hr>
 
