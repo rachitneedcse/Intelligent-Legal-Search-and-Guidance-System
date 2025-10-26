@@ -2,6 +2,7 @@
 <p>
 A Retrieval-Augmented Generation (RAG) based chatbot designed for the Indian legal system.<br>
 It not only retrieves law-related content but also provides location-based resources and lawyer advice.<br>
+https://www.kaggle.com/code/rachitneedcse/legalchatbot-final
 </p>
 
 <hr>
