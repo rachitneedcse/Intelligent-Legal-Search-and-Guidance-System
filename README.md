@@ -1,47 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-</head>
+<head></head>
 <body>
 
 <h1>Legal Chatbot – AI-Powered Indian Law Assistant</h1>
-<h3>FastAPI Backend • Streamlit Frontend • RAG • Legal Advice Retrieval • Fine-Tuned INLegalBERT • FAISS • BART Summarization</h3>
+<h3>FastAPI Backend • Streamlit Frontend • Legal Knowledge Retrieval • Legal Advice Retrieval • Location-Based Assistance</h3>
 
 <hr>
 
 <h2>Overview</h2>
+
 <p>
-This project is a full-stack AI legal assistant for Indian law queries. It includes:
+This project is a full-stack <strong>AI Legal Chatbot</strong> designed to assist users with questions related to Indian law.  
+It combines <strong>Retrieval-Augmented Generation (RAG)</strong>, <strong>real lawyer advice retrieval</strong>, and <strong>location-based legal assistance</strong> to give users both legal context and practical solutions.
+</p>
+
+<p>
+The system is built with:
 </p>
 
 <ul>
-    <li>Retrieval-Augmented Generation (RAG)</li>
-    <li>Legal advice retrieval (FAISS + CrossEncoder)</li>
-    <li>Fine-tuned INLegalBERT embeddings</li>
-    <li>BART summarization pipeline</li>
     <li>FastAPI backend</li>
     <li>Streamlit frontend</li>
+    <li>Fine-tuned INLegalBERT embeddings</li>
+    <li>FAISS vector search for fast retrieval</li>
+    <li>BART summarization for compressing legal Q&A</li>
+    <li>Mistral-7B (Together API) for generating legal explanations</li>
+</ul>
+
+<hr>
+
+<h2>Key Functionalities</h2>
+
+<h3>1️⃣ Legal Knowledge Retrieval (RAG)</h3>
+<p>
+This module provides <strong>law-based explanations</strong> using IPC, HMA, CrPC, and other statutes.  
+It retrieves relevant legal text using FAISS and generates a <strong>5-point structured legal answer</strong> using Mistral-7B.
+</p>
+
+<h4>Capabilities:</h4>
+<ul>
+    <li>Finds the correct legal section</li>
+    <li>Explains punishment, exceptions, and applicability</li>
+    <li>Gives concise and structured legal summaries</li>
+</ul>
+
+<hr>
+
+<h3>2️⃣ Legal Advice Retrieval (Real Lawyer Answers)</h3>
+<p>
+This system retrieves <strong>real lawyer-provided advice</strong> by matching the user's question with summarized legal Q&A data.  
+It uses fine-tuned INLegalBERT embeddings for semantic matching, FAISS for fast retrieval, and a CrossEncoder for precise reranking.
+</p>
+
+<h4>Provides:</h4>
+<ul>
+    <li>Best matching lawyer advice</li>
+    <li>Advice summary</li>
+    <li>Source URL of the original question</li>
+    <li>Similarity score</li>
+    <li>Rerank score</li>
+</ul>
+
+<hr>
+
+<h3>3️⃣ Location-Based Legal Assistance</h3>
+<p>
+The system supports an optional module that helps users find:
+</p>
+<ul>
+    <li>Lawyers</li>
+    <li>Legal aid centers</li>
+    <li>Police stations</li>
+    <li>Court locations</li>
 </ul>
 
 <p>
-The system returns legal context, summarized advice, URLs, scores, and optional generated guidance.
+This feature activates when the user provides a <strong>city name</strong> along with their query.
 </p>
 
 <hr>
 
-<h2>Features</h2>
-<ul>
-    <li>Section-based legal reasoning using RAG</li>
-    <li>Real lawyer advice retrieval</li>
-    <li>Summarized Q&A for fine-tuning</li>
-    <li>INLegalBERT embedding model</li>
-    <li>FAISS search + CrossEncoder reranking</li>
-    <li>Modular backend</li>
-    <li>Streamlit-based frontend UI</li>
-</ul>
-
-<hr>
 
 <h2>Project Structure</h2>
 
