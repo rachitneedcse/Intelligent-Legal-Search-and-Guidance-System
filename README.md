@@ -186,32 +186,6 @@ source venv/bin/activate  # Linux / Mac
 
 <hr>
 
-<h2>API Reference</h2>
-
-<h3>POST /chat</h3>
-
-<p><strong>Request:</strong></p>
-<pre><code>{
-  "query": "My wife is forcing me to sign divorce papers"
-}
-</code></pre>
-
-<p><strong>Response:</strong></p>
-<pre><code>{
-  "query": "...",
-  "result": {
-    "rag_output": { ... },
-    "advice_summary": "...",
-    "url": "...",
-    "similarity": 0.94,
-    "rerank_score": -8.8,
-    "generated_advice": "..."
-  }
-}
-</code></pre>
-
-<h3>POST /advice</h3>
-<p>Returns only the advice retrieval results.</p>
 
 <hr>
 
